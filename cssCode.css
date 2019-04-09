@@ -1,0 +1,139 @@
+/*This is the CSS for the navigation menu*/
+
+ul.navbar 
+{
+	list-style-type:none;
+	padding:0;
+	position: fixed;
+	margin:0; 
+	overflow:hidden;
+}
+
+ul.navbar li
+{
+	float:left;
+	border-right:4em solid grey;
+	background:grey; /*black*/
+}
+
+ul.navbar a 
+{
+	text-decoration:none; 
+	display:block;
+	width:200px;
+}
+
+/*CSS for hyper-link formatting and address*/
+a:link	
+{
+	color:red;
+}
+
+a:visited 
+{
+	color:skyblue; 
+}
+
+a:hover 
+{
+	color:black;
+}
+
+address  
+{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted;  
+}
+			
+/*This is the main formatting in this CSS*/
+
+body 
+{
+	padding-left: 11em;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	color:purple; 
+}
+
+h1
+{ 
+	color:red;
+	text-align:center;
+	font-family:"Berlin Sans FB",Helvetica, Arial,sans-serif;
+}
+
+h2
+{			
+	color:green;
+	text-align:left;
+	font-family:Helvetica, Geneva, Arial, sans-serif;
+}
+
+h3	
+{			
+	color:black;
+	text-align:left;
+	font-family:"Times New Roman",Times,Arial,serif;
+	font-size:1em;
+}
+
+h1.navbarbac
+{
+	color:red;
+	text-align:center;
+	font-family:Georgia,serif;
+	font-size:19px;
+}
+	
+p
+{
+	color:black;
+	text-align:left;
+	text-indent:25px;
+}
+
+p.intro
+{
+
+	color: green;
+	border-style: ridge;
+	border-width: 25px;
+	border-color: red;
+	text-indent: 25px;
+
+}
+
+p.index
+{
+	color:blue;
+	text-align:left;
+	font-family:Georgia,serif;
+	font-size:120%; 
+}	
+
+img.logo
+{
+
+	float: left;
+	position: fixed;
+	left : 20px;
+	top: 10px;
+
+}
+
+dl
+{
+	color:black;
+}
+
+dt
+{
+	color:black;
+	font-weight:bold;
+}
+
+p.final
+{
+	color:red;
+	font-weight:bold;
+}	
